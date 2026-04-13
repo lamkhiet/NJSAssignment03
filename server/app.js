@@ -77,7 +77,7 @@ io.on("connection", (socket) => {
 app.set("io", io);
 
 const allowedOrigins = [
-  "https://njs-assignment03-git-main-lamkhiets-projects.vercel.app/", // URL của Client App trên Vercel
+  "https://njs-assignment03-git-main-lamkhiets-projects.vercel.app", // URL của Client App trên Vercel
   "https://njs-assignment03-admin-q119xkhby-lamkhiets-projects.vercel.app", // URL của Admin App trên Vercel
   "http://localhost:3000", // Cho phép test dưới máy local
   "http://localhost:3001", // Cho phép test dưới máy local
